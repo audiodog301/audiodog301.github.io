@@ -17,7 +17,7 @@
     <h2>Understanding CPAL (enough to play some audio)</h2>
     <p>Okay so for starters <a href="https://github.com/RustAudio/cpal">here's</a> the library I used. I'll start by breaking down the <a href="https://github.com/RustAudio/cpal/blob/master/examples/beep.rs">beep example</a> and then I'll move on to how I made it my own. I'm trying to make this pretty beginner friendly, so people who are semi-fluent in Rust should skip lower down. In fact, if you're fluent in Rust, then most of what I'm doing will be VERY obvious. My view is also going to be very high-level, because the goal is generating cool audio! I don't care so much about deeply understanding the boilerplate code that allows my audio to be played. Understanding some of it is important, though.</p>
     <p>An important note is that this only documents my experiences of trying to understand and write code from the perspective of an inexperienced Rust user. Most of what I do will work, but it should not be imitated.</p>
-    <img src='beep_breakdown.png' width='1100'>
+    <img src='beep_breakdown.png'>
     <ol>
       <li>This allows access to parts of other crates that code uses.</li>
       <li>This makes the code compile with <a href="https://jackaudio.org/">Jack</a> as the audio host if the operating system is Linux, Dragonfly, or FreeBSD, or if the Jack feature is specified on the command line as it's own argument ("--jack") or as&nbsp; feature ("--jack".) If the target operating system ISN'T one of the three choices and the Jack feature ISN'T specified on the command line, the code compiles with the default audio host.</li>
