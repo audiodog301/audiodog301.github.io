@@ -49,3 +49,12 @@ body {
 .postTitle {
   font-weight: bold;
 }
+
+.postTitle a {
+  color: black;
+  text-decoration: none;
+}
+
+.postTitle a:hover {
+  color: #333333;
+}
