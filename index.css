@@ -1,6 +1,7 @@
 body {
   background-color: lightblue;
   font-family: sans-serif;
+  line-height: 1.4;
 }
 
 .navbar {
