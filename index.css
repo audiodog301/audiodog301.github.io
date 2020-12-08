@@ -1,11 +1,7 @@
 a {
-  color: #aaaaaa;
+  color: #777777;
   text-decoration: none;
-}
-
-a:hover {
-  color: #000000;
-  text-decoration: none;
+  transition: color 0.1s;
 }
 
 a:hover {
@@ -14,7 +10,7 @@ a:hover {
 }
 
 a:visited {
-  color: #aaaaaa;
+  color: #777777;
   text-decoration: none;
 }
 
