@@ -13,6 +13,11 @@ a:visited {
   text-decoration: none;
 }
 
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
 body {
   background-color: lightblue;
   font-family: sans-serif;
